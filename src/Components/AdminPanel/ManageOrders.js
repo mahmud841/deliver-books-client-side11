@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const ManageOrders = () => {
-  const [acceptedOrders, setAcceptedOrders] = useState([]);
-  useEffect(() => {
-    fetch("https://enigmatic-mesa-35453.herokuapp.com/getAllOrders")
-      .then((res) => res.json())
-      .then((data) => setAcceptedOrders(data));
-  }, []);
+
 
   return (
     <div>
@@ -21,21 +16,6 @@ const ManageOrders = () => {
               <th scope="col">Shipping Status</th>
             </tr>
           </thead>
-          <tbody>
-            {acceptedOrders.map((order) => (
-              <tr key={order._id}>
-                <th scope="row">{order.email}</th>
-                <td>{order._id}</td>
-                <td>{order.order?._id}</td>
-                <td>
-                  {new Date(order?.order.order_placement_time).toDateString(
-                    "dd/MM/yyyy"
-                  )}
-                </td>
-                <td>Pending</td>
-              </tr>
-            ))}
-          </tbody>
         </table>
       </div>
     </div>
