@@ -12,6 +12,8 @@ import OrderTracking from "./Components/Orders/OrderTracking";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import EditProduct from "./Components/AdminPanel/EditProduct";
 import Books from "./Components/Books/Books";
+import NotFound from "./Components/NotFound/NotFound"
+
 
 
 
@@ -69,6 +71,9 @@ const App = () => {
             <PrivateRoute path="/edit-product">
               <EditProduct />
             </PrivateRoute>
+            <Route path="*">
+            <NotFound></NotFound>
+            </Route>
           </Switch>
         </Router>
       </UserContext.Provider>

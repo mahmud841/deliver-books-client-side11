@@ -1,0 +1,19 @@
+.not-found{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  padding: 215px 0px;
+}
+.not-found h1{
+  font-size: 200px;
+  font-weight: 900;
+  color: red;
+}
+.not-found h2{
+  font-weight: 800;
+}
+.not-found{
+  font-weight: 700;
+}
