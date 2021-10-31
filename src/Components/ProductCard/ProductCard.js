@@ -16,8 +16,9 @@ const ProductCard = ({ product }) => {
   };
   const cardStyle = {
     borderRadius: 0,
-    background: "#ffffff",
-    boxShadow: "11px 11px 22px #d6d6d6, -11px -11px 22px #ffffff",
+    background: "#F5FFFA",
+    fontStyle: "italic",
+    boxShadow: "11px 11px 22px #d6d6d6, -11px -11px 22px #AFEEEE",
   };
   return (
     <div className="col">
