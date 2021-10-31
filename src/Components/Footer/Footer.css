@@ -2,7 +2,7 @@
   padding-left: 70px;
   padding-top: 40px;
   background-color: rgb(51, 50, 50);
-  color: rgb(91, 233, 197);
+  color: rgb(44, 175, 77);
 }
 .footer > div:first-child{
   display: flex;
@@ -11,12 +11,6 @@
   width: 33.33%;
 }
 
- .footer .callNow{
-  width: 150px;
-  padding: 10px 10px;
-  color: white;
-  border-radius: 5px;
-} 
 .brandIcon {
   display: flex;
   flex-direction: row;

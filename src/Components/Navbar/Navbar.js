@@ -43,16 +43,14 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link fw-bold text-light" to="/orders">
-                <p>Services </p>
+                <p>Services</p>
               </Link>
             </li>
             <li className="nav-item">
-             <Link>
-             <p className="nav-link fw-bold text-light" to="">
-                Books  
-              </p></Link>
+              <Link className="nav-link fw-bold text-light" to="/books">
+                <p>Books</p>
+              </Link>
             </li>
-
             <li className="nav-item">
               <Link className="nav-link fw-bold text-light" to="/admin">
                 Admin

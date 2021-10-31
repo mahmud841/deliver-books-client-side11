@@ -1,0 +1,46 @@
+
+/* --------  Delivery Books -------- */
+
+
+ .About-container{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;    
+}
+
+/* .About .About-container::after{
+  margin-right: auto;
+  margin-left: auto;    
+  margin-top: 8px;     
+  content:"";    
+  display: block;    
+  width: 200px;        
+  border-top: 4px solid #006a9b;
+} */
+
+/* .About-container p{
+  text-align:justify;
+}
+ */
+.welcome-txt{
+  color: #0c2c28;
+  margin: 20px;
+  padding: 15px;
+  background-color: rgb(217, 233, 233);
+  font-style: italic;
+  border: 2px solid tomato;
+  border-radius: 3px;
+}
+.terms-condition{
+  color: #124240;
+  margin: 20px;
+  padding: 15px;
+  background-color: rgb(215, 236, 236);
+  font-style: italic;
+  border: 2px solid tomato;
+}
+
+.terms-condition :hover{
+  background-color: rgb(238, 245, 237);
+  color: #0b423c;
+}

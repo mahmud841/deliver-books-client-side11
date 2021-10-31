@@ -11,6 +11,9 @@ import Orders from "./Components/Orders/Orders";
 import OrderTracking from "./Components/Orders/OrderTracking";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import EditProduct from "./Components/AdminPanel/EditProduct";
+import Books from "./Components/Books/Books";
+
+
 
 export const UserContext = createContext();
 const App = () => {
@@ -47,6 +50,9 @@ const App = () => {
             </Route>
             <Route path="/signin">
               <Signin></Signin>
+            </Route>
+            <Route path="/books">
+           <Books></Books>
             </Route>
             <PrivateRoute path="/check-out">
               <CheckOut />

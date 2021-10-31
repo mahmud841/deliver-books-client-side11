@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import { UserContext } from "../../App";
+import Footer from "../Footer/Footer";
 import { googleSignIn } from "./LoginMethods";
 
 const Login = () => {
@@ -33,7 +34,7 @@ const Login = () => {
                 type="email"
                 className="form-control"
                 id="inputEmail4"
-                placeholder="Temporarily disabled"
+                placeholder=" disabled now"
               />
             </div>
             <div className="col-12">
@@ -44,7 +45,7 @@ const Login = () => {
                 type="password"
                 className="form-control"
                 id="inputPassword4"
-                placeholder="Temporarily disabled"
+                placeholder="disabled now"
               />
             </div>
 
@@ -59,7 +60,7 @@ const Login = () => {
                   Remember next
                 </label>
               </div>
-              <div className="text-primary"> Forgot Password?</div>
+              <div className="text-primary"> Forgot Password??</div>
             </div>
             <div className="col-12">
               <button type="submit" className="btn btn-success w-100">
@@ -76,14 +77,14 @@ const Login = () => {
         </div>
       </div>
       <div className="text-center">or</div>
-      <div className="m-auto mt-3" style={{ maxWidth: 450 }}>
+      <div className="m-auto mt-3" style={{ maxWidth: 455 }}>
         <button
-          className="btn btn-outline-primary"
+          className="btn btn-outline-success"
           style={{
             width: "100%",
-            border: "1px solid",
-            padding: 5,
-            borderRadius: 999,
+            border: "2px solid",
+            padding: 7,
+            borderRadius: 888,
             margin: "auto",
           }}
           onClick={handleGoogleSignIn}
@@ -94,12 +95,13 @@ const Login = () => {
             className="mx-3"
             style={{
               maxWidth: 30,
-              borderRadius: "50%",
+              borderRadius: "60%",
             }}
           />
           Sign In with google
         </button>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

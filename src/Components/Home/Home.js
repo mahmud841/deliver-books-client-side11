@@ -48,7 +48,7 @@ const Home = () => {
           <ProductCard product={pd} key={pd._id} />
         ))}
       </div>
-      <Footer />
+      <Footer></Footer>
     </div>
   );
 };
