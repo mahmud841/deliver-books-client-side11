@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-Live Site URL [Click here](https://book-voice.netlify.app/).
+Live Site URL [Click here](https://.netlify.app/).
 
-## Project name - book-voice
+## Project name - book-orerded&delivery
 
-This is **MERN** fullstack project.  
+This is **Frontend and Backend** fullstack project.  
 
 
 > ### Features
@@ -17,4 +17,3 @@ This is **MERN** fullstack project.
 
 
 
-Server Side code [Click here](https://github.com/sagar-biswas1/book-voice-server).
