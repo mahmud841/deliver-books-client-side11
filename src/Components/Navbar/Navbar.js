@@ -47,9 +47,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <p className="nav-link fw-bold text-light" to="">
+             <Link>
+             <p className="nav-link fw-bold text-light" to="">
                 Books  
-              </p>
+              </p></Link>
             </li>
 
             <li className="nav-item">
@@ -69,7 +70,7 @@ const Navbar = () => {
               )}
             </li>
             {(user.name || user.email) && (
-              <li className="nav-link fw-bold text-dark">
+              <li className="nav-link fw-bold text-light">
                 <img
                   src={user?.photo}
                   alt=""

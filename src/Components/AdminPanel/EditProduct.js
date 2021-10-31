@@ -83,24 +83,14 @@ const EditProduct = () => {
   return (
     <div className="container m-auto">
       <p className="text-center p-3 mt-4">
-        Fill each field which you want to change. If yor don't fill any field it
-        will be updated with previous information.
+        Fill each figure which you want to change. If yor don't fill any field it
+        will be updated with the previous details
       </p>
-      {/* <form className="d-flex m-auto p-5" style={{ maxWidth: 500 }}>
-        <input
-          className="form-control m"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button className="btn btn-info" type="submit">
-          Search
-        </button>
-      </form> */}
+  
       <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-md-6">
           <label htmlFor="bookName" className="form-label">
-            <i className="bi bi-book-fill"></i> Book Name
+            <i className="bi bi-book-fill"></i> Book's Name
           </label>
           <input
             name="book_name"
@@ -113,7 +103,7 @@ const EditProduct = () => {
         </div>
         <div className="col-md-6">
           <label htmlFor="authorName" className="form-label">
-            <i className="bi bi-pen-fill"></i> Author Name
+            <i className="bi bi-pen-fill"></i> Author's Name
           </label>
           <input
             name="author_name"
@@ -126,7 +116,7 @@ const EditProduct = () => {
         </div>
         <div className="col-md-6">
           <label htmlFor="bookPrice" className="form-label">
-            <i className="bi bi-tags-fill"></i> Book price
+            <i className="bi bi-tags-fill"></i> Book Prices
           </label>
           <input
             name="book_price"
@@ -141,7 +131,7 @@ const EditProduct = () => {
         <div className="col-md-6 d-flex flex-column flex-md-row">
           <div className="mb-3">
             <label htmlFor="bookFile" className="form-label">
-              <i className="bi bi-cloud-arrow-up-fill"></i> Upload image
+              <i className="bi bi-cloud-arrow-up-fill"></i> Upload images
             </label>
 
             <input
@@ -166,16 +156,16 @@ const EditProduct = () => {
               onBlur={(e) => handleInputChange(e)}
             ></textarea>
             <label htmlFor="floatingTextarea2">
-              <i className="bi bi-card-text"></i> Short description
+              <i className="bi bi-card-text"></i> Some Description
             </label>
           </div>
         </div>
         <div className="col-12 d-flex justify-content-between">
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-success">
             Update Book
           </button>
           <button
-            className="btn btn-primary"
+            className="btn btn-success"
             onClick={() => window.history.go(-1)}
           >
             Go back

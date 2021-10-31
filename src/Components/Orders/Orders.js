@@ -27,10 +27,10 @@ const Orders = () => {
     <div className="container m-auto mt-4">
       <h3>
         {" "}
-        Hello <span style={{ color: "goldenrod" }}>{user.name}</span> ,here is
-        the details list of your placed order...{" "}
+        Hello Dear <span style={{ color: "goldenrod" }}>{user.name}</span> ,here's
+        the details of your orders...{" "}
       </h3>
-      <p>Click on any Order Id to track your order.</p>
+      <p>Click on any Id to confirm your order.</p>
       <div className="table-responsive mt-3 p-4">
         <table className="table table-hover">
           <thead className="table-info">
@@ -39,13 +39,13 @@ const Orders = () => {
                 <i className="bi bi-arrow-down-circle-fill"></i> Order ID
               </th>
               <th scope="col">
-                <i className="bi bi-calendar-check-fill"></i> Placed Time
+                <i className="bi bi-calendar-check-fill"></i> Placed Times
               </th>
               <th scope="col">
-                <i className="bi bi-basket-fill"></i> Product name
+                <i className="bi bi-basket-fill"></i> Product's name
               </th>
               <th scope="col">
-                <i className="bi bi-tags-fill"></i> Price
+                <i className="bi bi-tags-fill"></i> Prices
               </th>
               <th scope="col">
                 <i className="bi bi-handbag-fill"></i> Quantity
@@ -94,7 +94,7 @@ const Orders = () => {
           </tbody>
         </table>
       </div>
-      Thanks fro shopping with us...
+      Thanks for Taking Our Service...
     </div>
   );
 };

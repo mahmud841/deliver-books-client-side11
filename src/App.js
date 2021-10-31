@@ -25,28 +25,28 @@ const App = () => {
           photo: photoURL,
         };
         setUser(userDetails);
-        // User is signed in.
+        // Shown User is signed in
       } else {
-        // No user is signed in.
+        //Shown No user is signed in.
       }
     });
   }, []);
 
   return (
     <div>
+      {/*****************Handle All Routing Path************/}
       <UserContext.Provider value={{ user, setUser }}>
         <Router>
-          <Navbar />
+          <Navbar></Navbar>
           <Switch>
             <Route exact path="/">
-              <Home />
+              <Home></Home>
             </Route>
-
             <Route path="/login">
-              <Login />
+              <Login> </Login>
             </Route>
             <Route path="/signin">
-              <Signin />
+              <Signin></Signin>
             </Route>
             <PrivateRoute path="/check-out">
               <CheckOut />
@@ -64,7 +64,6 @@ const App = () => {
               <EditProduct />
             </PrivateRoute>
           </Switch>
-
         </Router>
       </UserContext.Provider>
     </div>

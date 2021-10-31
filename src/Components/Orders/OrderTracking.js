@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const OrderTracking = () => {
   return (
     <div className="container p-2 mt-4">
-      Here you can easily track your order...
+      Here you can easily confirm your favourite Book ordering ...
       <div className="container p-2 mt-4">
         <div className="progress">
           <div
@@ -15,7 +15,7 @@ const OrderTracking = () => {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            Ordered 2/4/21
+            Ordered 3/4/21
           </div>
           <div
             className="progress-bar bg-success"
@@ -25,7 +25,7 @@ const OrderTracking = () => {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            Ready 4/4/21
+            Ready 4/5/21
           </div>
           <div
             className="progress-bar bg-primary"
@@ -35,7 +35,7 @@ const OrderTracking = () => {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            Shipped 5/4/21
+            Shipped 5/6/21
           </div>
           <div
             className="progress-bar bg-info"
@@ -45,7 +45,7 @@ const OrderTracking = () => {
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            Estimated delivery 13/4/21
+            Estimated delivery 13/7/21
           </div>
         </div>
       </div>
@@ -62,36 +62,36 @@ const OrderTracking = () => {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">5/4/21</th>
-                <td>Chittagong</td>
+                <th scope="row">5/8/21</th>
+                <td>Dhaka</td>
                 <td>
                   <p>
-                    <b>shipped</b>
+                    <b>Delivered</b>
                   </p>
-                  <p>carrier: Hamburg Süd </p>{" "}
+                  <p>deliver-product: Hamburg Süd </p>{" "}
                   <p>Tracking id : "123dsDsdf3442kkhy342ffs"</p>
                 </td>
               </tr>
               <tr>
-                <th scope="row">4/4/21</th>
+                <th scope="row">4/9/21</th>
                 <td>Chittagong</td>
                 <td>
                   <p>Ready</p>
-                  <p>Waiting for the carrier</p>
+                  <p>Waiting for the Delivery</p>
                 </td>
               </tr>
               <tr>
                 <th scope="row" colSpan="2">
-                  2/4/21
+                  2/10/21
                 </th>
 
-                <td>Order received</td>
+                <td>Product Received</td>
               </tr>
             </tbody>
           </table>
           <Link to="/orders">
             {" "}
-            <button className="btn btn-primary"> Back to order page</button>
+            <button className="btn btn-success"> Back to Booking Page</button>
           </Link>
         </div>
       </div>{" "}
