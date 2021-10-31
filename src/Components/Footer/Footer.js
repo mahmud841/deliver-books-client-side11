@@ -15,13 +15,13 @@ const Footer = () => {
           <div>
             <small>Emergency Booking Point</small>
             <br />
-            <small>Engineering Department</small>
+            <small>Engineering Department Books</small>
             <br />
             <small>Biography of World Legends</small>
             <br />
             <small>Literature Department </small>
             <br />
-            <small>Chemistry Department </small>
+            <small>Chemistry Department Books </small>
           </div>
         </div>
         <div>

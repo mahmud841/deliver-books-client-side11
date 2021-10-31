@@ -38,7 +38,7 @@ const AdminPanel = () => {
           aria-selected="false"
           style={{ textAlign: "left" }}
         >
-          <i className="bi bi-plus-circle-fill"></i> Add Book
+          <i className="bi bi-plus-circle-fill"></i> Add Books
         </button>
         <button
           className="nav-link"
@@ -90,7 +90,7 @@ const AdminPanel = () => {
           aria-labelledby="v-pills-messages-tab"
         >
           <div style={tabContentStyle}>
-            <h2>List of all orders booking by customers.</h2>
+            <h2>List of all delivery products booking by customers.</h2>
 
             {/* <EditProduct /> */}
             <ManageOrders />

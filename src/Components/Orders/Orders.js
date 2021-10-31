@@ -30,7 +30,7 @@ const Orders = () => {
         Hello Dear <span style={{ color: "goldenrod" }}>{user.name}</span> ,here's
         the details of your orders...{" "}
       </h3>
-      <p>Click on any Id to confirm your order.</p>
+      <p>Click on any Id to confirm your delivery.</p>
       <div className="table-responsive mt-3 p-4">
         <table className="table table-hover">
           <thead className="table-info">

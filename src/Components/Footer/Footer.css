@@ -2,7 +2,8 @@
   padding-left: 70px;
   padding-top: 40px;
   background-color: rgb(51, 50, 50);
-  color: rgb(44, 175, 77);
+  color: rgb(207, 238, 30);
+  font-style: italic;
 }
 .footer > div:first-child{
   display: flex;

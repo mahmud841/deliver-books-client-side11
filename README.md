@@ -16,7 +16,7 @@ This is **Frontend and Backend** fullstack project.
 >>* Bullet 5: There are also order tracking part that needs further improvement(delivery status and google map )  
 >> In Admin panel there is a manage order page which is currently static,need to improve 
 
-* Technology Used : HTML, CSS, Bootstrap, Firebase, Node, Mongodb, Express, React-Router etc. 
+* Technology Used : HTML, CSS, React.js, Node.js, Express.js, Firebase, MongoDB, Bootstrap, Heroku, Netlify. 
 
 
 

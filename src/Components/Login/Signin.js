@@ -8,7 +8,7 @@ const Signin = () => {
   let history = useHistory();
   let location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
-  //initializeFirebaseApp();
+
 
   const handleGoogleSignIn = () => {
     googleSignIn().then((res) => {
@@ -24,8 +24,7 @@ const Signin = () => {
         <form className="row g-3">
           <fieldset disabled>
             <legend style={{ fontSize: 13 }}>
-              Login in with email and password feature is temporarily disabled.
-              Please continue with google
+             Please continue with google
             </legend>
             <div className="col-12">
               <label htmlFor="inputName" className="form-label">

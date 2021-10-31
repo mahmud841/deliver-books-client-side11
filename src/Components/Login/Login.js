@@ -20,11 +20,10 @@ const Login = () => {
     <div className="m-4">
       {" "}
       <div className="m-auto border p-4" style={{ maxWidth: 500 }}>
-        <form className="row g-3">
+        <form className="row g-2">
           <fieldset disabled>
             <legend style={{ fontSize: 12 }}>
-              Login with email and password feature is temporarily disabled.
-              Now google Sign in available
+            At present google Sign in available
             </legend>
             <div className="col-12">
               <label htmlFor="inputEmail4" className="form-label">

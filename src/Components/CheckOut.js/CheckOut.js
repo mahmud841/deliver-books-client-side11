@@ -74,9 +74,8 @@ const CheckOut = () => {
           Checkout{" "}
         </button>
         <button
-          className="btn btn-primary"
-          onClick={() => window.history.go(-1)}
-        >
+          className="btn btn-success"
+          onClick={() => window.history.go(-1)} >
           Go back
         </button>
       </div>

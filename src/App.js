@@ -12,7 +12,7 @@ import OrderTracking from "./Components/Orders/OrderTracking";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import EditProduct from "./Components/AdminPanel/EditProduct";
 import Books from "./Components/Books/Books";
-import NotFound from "./Components/NotFound/NotFound"
+import NotFound from "./Components/NotFound/NotFound";
 
 
 
@@ -45,6 +45,9 @@ const App = () => {
           <Navbar></Navbar>
           <Switch>
             <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route  path="/home">
               <Home></Home>
             </Route>
             <Route path="/login">

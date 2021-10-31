@@ -40,7 +40,7 @@ const ProductCard = ({ product }) => {
           </small>{" "}
           <Link to={`/check-out?id=${_id}`}>
             <button className="btn btn-success">
-              <i className="bi bi-cart-plus-fill"></i> Buy now
+              <i className="bi bi-cart-plus-fill"></i> Order now
             </button>
           </Link>
         </div>

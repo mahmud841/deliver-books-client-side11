@@ -4,11 +4,7 @@ const ManageProducts = () => {
   const [product, setProducts] = useState([]);
 
   useEffect(() => {
-    // fetch("https://enigmatic-mesa-35453.herokuapp.com/getAllProducts")
-    //   .then((res) => res.json())
-    //   .then((data) => {
-    //     setProducts(data);
-    //   });
+  
     fetchAllProducts();
   }, []);
 
