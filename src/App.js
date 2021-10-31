@@ -11,6 +11,7 @@ import Orders from "./Components/Orders/Orders";
 import OrderTracking from "./Components/Orders/OrderTracking";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import EditProduct from "./Components/AdminPanel/EditProduct";
+import Footer from "./Components/Footer/Footer";
 
 export const UserContext = createContext();
 const App = () => {
@@ -64,6 +65,7 @@ const App = () => {
               <EditProduct />
             </PrivateRoute>
           </Switch>
+
         </Router>
       </UserContext.Provider>
     </div>

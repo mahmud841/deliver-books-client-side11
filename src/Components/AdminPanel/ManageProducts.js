@@ -34,10 +34,10 @@ const ManageProducts = () => {
     <table className="table table-info table-hover ">
       <thead>
         <tr>
-          <th scope="col text-center">Book Name</th>
-          <th scope="col text-center">Author Name</th>
+          <th scope="col text-center">Book's Name</th>
+          <th scope="col text-center">Author's Name</th>
           <th scope="col text-center">Price</th>
-          <th scope="col text-center">Action</th>
+          <th scope="col text-center">Action's</th>
         </tr>
       </thead>
       <tbody>

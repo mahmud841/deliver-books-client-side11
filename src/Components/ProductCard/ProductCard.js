@@ -39,7 +39,7 @@ const ProductCard = ({ product }) => {
             <i className="bi bi-tags-fill"></i> Price : ${book_price}
           </small>{" "}
           <Link to={`/check-out?id=${_id}`}>
-            <button className="btn btn-info">
+            <button className="btn btn-success">
               <i className="bi bi-cart-plus-fill"></i> Buy now
             </button>
           </Link>

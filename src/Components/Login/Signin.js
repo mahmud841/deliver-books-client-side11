@@ -23,7 +23,7 @@ const Signin = () => {
       <div className="m-auto border p-4" style={{ maxWidth: 500 }}>
         <form className="row g-3">
           <fieldset disabled>
-            <legend style={{ fontSize: 12 }}>
+            <legend style={{ fontSize: 13 }}>
               Login in with email and password feature is temporarily disabled.
               Please continue with google
             </legend>
@@ -100,7 +100,7 @@ const Signin = () => {
               borderRadius: "50%",
             }}
           />
-          Continue with google
+          Sign In with google
         </button>
       </div>
     </div>

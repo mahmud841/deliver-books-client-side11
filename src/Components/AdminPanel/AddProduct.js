@@ -132,11 +132,11 @@ const AddProduct = () => {
       </div>
       {confirmMessage && (
         <div className="col-12">
-          <p className="p-3 bg-info">{confirmMessage}</p>
+          <p className="p-3 bg-success">{confirmMessage}</p>
         </div>
       )}
       <div className="col-12">
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-success">
           Upload Book
         </button>
       </div>

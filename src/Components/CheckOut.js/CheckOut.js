@@ -51,10 +51,10 @@ const CheckOut = () => {
         <table className="table">
           <thead>
             <tr>
-              <th scope="col">Book Name</th>
-              <th scope="col">Image</th>
+              <th scope="col">Book's Name</th>
+              <th scope="col">Images</th>
               <th scope="col">Quantity</th>
-              <th scope="col">Price</th>
+              <th scope="col">Prices</th>
             </tr>
           </thead>
           <tbody>
@@ -70,7 +70,7 @@ const CheckOut = () => {
         </table>
       </div>
       <div className="col-12 d-flex justify-content-between">
-        <button className="btn btn-primary" onClick={handlePlaceOrder}>
+        <button className="btn btn-success" onClick={handlePlaceOrder}>
           Checkout{" "}
         </button>
         <button

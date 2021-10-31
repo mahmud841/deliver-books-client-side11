@@ -30,7 +30,7 @@ const Home = () => {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-info" type="submit">
+            <button className="btn btn-success text-light" type="submit">
               Search
             </button>
           </fieldset>

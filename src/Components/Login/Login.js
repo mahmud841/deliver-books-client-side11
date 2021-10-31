@@ -22,8 +22,8 @@ const Login = () => {
         <form className="row g-3">
           <fieldset disabled>
             <legend style={{ fontSize: 12 }}>
-              Login in with email and password feature is temporarily disabled.
-              Please continue with google
+              Login with email and password feature is temporarily disabled.
+              Now google Sign in available
             </legend>
             <div className="col-12">
               <label htmlFor="inputEmail4" className="form-label">
@@ -56,13 +56,13 @@ const Login = () => {
                   id="gridCheck"
                 />
                 <label className="form-check-label" htmlFor="gridCheck">
-                  Remember me
+                  Remember next
                 </label>
               </div>
               <div className="text-primary"> Forgot Password?</div>
             </div>
             <div className="col-12">
-              <button type="submit" className="btn btn-primary w-100">
+              <button type="submit" className="btn btn-success w-100">
                 Log in
               </button>
             </div>
@@ -97,7 +97,7 @@ const Login = () => {
               borderRadius: "50%",
             }}
           />
-          Continue with google
+          Sign In with google
         </button>
       </div>
     </div>

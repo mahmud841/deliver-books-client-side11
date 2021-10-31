@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../../App";
-import logo from "../../logo/logo.png";
+import logo from "../../logo/logo.jpg";
 import { logOut } from "../Login/LoginMethods";
 const Navbar = () => {
   const { user, setUser } = useContext(UserContext);
@@ -10,7 +10,7 @@ const Navbar = () => {
     setUser({});
   };
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-info">
+    <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
       <div className="container-fluid">
         <div className="navbar-brand">
           <Link to="/">
@@ -37,23 +37,23 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link fw-bold text-dark" to="/">
+              <Link className="nav-link fw-bold text-light" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link fw-bold text-dark" to="/orders">
-                <p> Orders</p>
+              <Link className="nav-link fw-bold text-light" to="/orders">
+                <p>Services </p>
               </Link>
             </li>
             <li className="nav-item">
-              <p className="nav-link fw-bold text-dark" to="">
-                Deals
+              <p className="nav-link fw-bold text-light" to="">
+                Books  
               </p>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link fw-bold text-dark" to="/admin">
+              <Link className="nav-link fw-bold text-light" to="/admin">
                 Admin
               </Link>
             </li>
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </button>
               ) : (
                 <Link className="nav-link" to="/login">
-                  <button className="btn btn-primary"> Login</button>
+                  <button className="btn btn-success"> Login</button>
                 </Link>
               )}
             </li>

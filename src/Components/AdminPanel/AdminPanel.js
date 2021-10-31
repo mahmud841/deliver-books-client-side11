@@ -9,7 +9,7 @@ const AdminPanel = () => {
   return (
     <div className="d-flex align-items-start w-100 h-100">
       <div
-        className="nav flex-column nav-pills me-3 w-25 bg-info admin-options"
+        className="nav flex-column nav-pills me-3 w-25 bg-success admin-options"
         id="v-pills-tab"
         role="tablist"
         aria-orientation="vertical"
