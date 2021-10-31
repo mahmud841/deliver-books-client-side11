@@ -2,7 +2,7 @@
 
 Live Site URL [Click here](https://.netlify.app/).
 
-## Project name - book-orerded&delivery
+## Project name - Khan's-Book-Delivery
 
 This is **Frontend and Backend** fullstack project.  
 
